@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/app_bar_main">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <SearchView
+                android:id="@+id/search"
+                android:layout_width="392dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="40dp"
+                android:layout_marginTop="5dp"
+                android:background="#6D977073"
+                android:gravity="center_horizontal" />
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="16dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:text="Categories" />
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <Button
+                        android:id="@+id/jenis_satu"
+                        android:layout_width="69dp"
+                        android:layout_height="67dp"
+                        android:background="@drawable/j_satu"
+                        android:layout_marginLeft="44dp" />
+
+                    <Button
+                        android:id="@+id/jenis_dua"
+                        android:layout_width="69dp"
+                        android:layout_height="67dp"
+                        android:background="@drawable/j_dua"
+                        android:layout_marginLeft="55dp" />
+
+                    <Button
+                        android:id="@+id/jenis_tiga"
+                        android:layout_width="69dp"
+                        android:layout_height="67dp"
+                        android:layout_marginLeft="55dp"
+                        android:background="@drawable/j_tiga" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="84dp">
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jenis Satu"
+                        android:textColor="#000000"
+                        android:textSize="10sp"
+                        android:layout_marginLeft="51dp"
+                         />
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jenis Dua"
+                        android:textColor="#000000"
+                        android:textSize="10sp"
+                        android:layout_marginLeft="80dp"
+                        />
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jenis Tiga"
+                        android:textColor="#000000"
+                        android:textSize="10sp"
+                        android:layout_marginLeft="85dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="111dp">
+                    <Button
+                        android:id="@+id/jenis_empat"
+                        android:layout_width="69dp"
+                        android:layout_height="67dp"
+                        android:background="@drawable/j_Empat"
+                        android:layout_marginLeft="44dp" />
+
+                    <Button
+                        android:id="@+id/jenis_lima"
+                        android:layout_width="69dp"
+                        android:layout_height="67dp"
+                        android:background="@drawable/j_lima"
+                        android:layout_marginLeft="55dp" />
+
+                    <Button
+                        android:id="@+id/jenis_enam"
+                        android:layout_width="69dp"
+                        android:layout_height="67dp"
+                        android:background="@drawable/j_enam"
+                        android:layout_marginLeft="55dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="196dp">
+                    <TextView
+                        android:id="@+id/textView34"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jenis Empat"
+                        android:textColor="#000000"
+                        android:textSize="10sp"
+                        android:layout_marginLeft="51dp"/>
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jenis Lima"
+                        android:textColor="#000000"
+                        android:textSize="10sp"
+                        android:layout_marginLeft="70dp"/>
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jenis Enam"
+                        android:textColor="#000000"
+                        android:textSize="10sp"
+                        android:layout_marginLeft="80dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="228dp">
+                    <Button
+                        android:id="@+id/jenis_tujuh"
+                        android:layout_width="69dp"
+                        android:layout_height="67dp"
+                        android:background="@drawable/j_tujuh"
+                        android:layout_marginLeft="44dp"/>
+
+                    <Button
+                        android:id="@+id/jenis_delapan"
+                        android:layout_width="69dp"
+                        android:layout_height="67dp"
+                        android:background="@drawable/j_delapan"
+                        android:layout_marginLeft="55dp"/>
+
+                    <Button
+                        android:id="@+id/jenis_sembilan"
+                        android:layout_width="69dp"
+                        android:layout_height="67dp"
+                        android:background="@drawable/j_sembilan"
+                        android:layout_marginLeft="55dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="310dp">
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jenis Tujuh"
+                        android:textColor="#000000"
+                        android:textSize="10sp"
+                        android:layout_marginLeft="51dp"/>
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jenis Delapan"
+                        android:textColor="#000000"
+                        android:textSize="10sp"
+                        android:layout_marginLeft="71dp"/>
+
+                    <TextView
+                        android:id="@+id/textView33"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jenis Sembilan"
+                        android:textColor="#000000"
+                        android:textSize="10sp"
+                        android:layout_marginLeft="61dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="331dp">
+
+                    <TextView
+                        android:id="@+id/textView32"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:text="Recommendation" />
+                </LinearLayout>
+            </FrameLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/img_item_photos"
+                    android:layout_width="150dp"
+                    android:layout_height="111dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginLeft="35dp"
+                    android:scaleType="centerCrop"
+                    tools:src="@color/colorAccent"/>
+
+                <ImageView
+                    android:id="@+id/img_item_photod"
+                    android:layout_width="150dp"
+                    android:layout_height="111dp"
+                    android:layout_marginLeft="225dp"
+                    android:layout_marginBottom="4dp"
+                    android:scaleType="centerCrop"
+                    tools:src="@color/colorAccent" />
+
+                <TextView
+                    android:id="@+id/judulsat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/judul"
+                    android:textColor="#000000"
+                    android:textSize="17dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="110dp"
+                    android:layout_marginLeft="53dp"/>
+
+                <TextView
+                    android:id="@+id/juduldu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/judul"
+                    android:textColor="#000000"
+                    android:textSize="17dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="110dp"
+                    android:layout_marginLeft="245dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/keterangan"
+                    android:textColor="#000000"
+                    android:textSize="10dp"
+                    android:layout_marginTop="138dp"
+                    android:layout_marginLeft="35dp"
+                    android:ellipsize="end"
+                    android:maxLines="3"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/keterangan"
+                    android:textColor="#000000"
+                    android:textSize="10dp"
+                    android:layout_marginTop="138dp"
+                    android:layout_marginLeft="230dp"
+                    android:ellipsize="end"
+                    android:maxLines="3"/>
+            </FrameLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

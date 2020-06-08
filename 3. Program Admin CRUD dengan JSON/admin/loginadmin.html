@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FINDCATION</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Security-Policy" content="default-src *; style-src * 'unsafe-inline'; script-src * 'unsafe-inline'; media-src *">
+     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    
+</head>
+<body>
+    <div data-role="page" id="page-login">
+        <div data-role="header">
+            <h1>Login Admin</h1>
+        </div>
+        <div role="main" class="ui-content" id = "main2">
+             <form>
+                 Nama:<br>
+                 <input type="text" id = "nama_admin" name="nama"><br>
+                 Password:<br>
+                 <input type="password" id = "pwd_admin" name="pwd">
+            </form>           
+           <button id = "btnlogin">Login</button>
+        </div>
+    </div> 
+    
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/app.js" type="text/javascript"></script>
+    <script>Application.initApplication();</script>
+</body>
+</html>

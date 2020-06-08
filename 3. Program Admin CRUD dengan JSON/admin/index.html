@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FINDCATION</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Security-Policy" content="default-src *; style-src * 'unsafe-inline'; script-src * 'unsafe-inline'; media-src *">
+     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    
+</head>
+<body>
+    <div data-role="page" id="page-one">
+        <div data-role="header">
+            <h1>Daftar Wisata</h1>
+      </div>
+        <div role="main" class="ui-content">
+            
+            <ul id="list-wst" data-role="listview" data-inset="true" data-filter="true">     
+                <a href="#page-three"><button id="btn tambah">(+) Tambah Wisata</button></a>
+            </ul>
+            <a href="loginadmin.html"><button id = "btnlogout">Log Out</button></a>
+        </div>
+        
+    </div>
+    
+    
+
+    <div data-role="page" id="page-two">
+        <div data-role="header">
+            <h1>Detail Wisata</h1>
+        </div>
+        <div role="main" class="ui-content" id = "main2">
+                        <p id = "p-foto"></p><br>
+                        <p id = "p-nama"></p><br>
+                        <p id ="p-harga"></p><br>
+                        <p id ="p-lokasi"></p><br>
+                        <p id ="p-jambuka"></p><br>
+                        <p id ="p-ket"></p><br>
+                        <div id="btns"></div>
+        </div>
+    </div> 
+    
+    <div data-role="page" id="page-three">
+        <div data-role="header">
+            <h1>Tambah Wisata</h1>
+        </div>
+        <div role="main" class="ui-content" id = "main2">
+             <form>
+                 Nama:<br>
+                 <input type="text" id = "new_nama" name="nama"><br>
+                 Harga:<br>
+                 <input type="text" id = "new_harga" name="harga">
+                 Lokasi:<br>
+                 <input type="text" id = "new_lokasi" name="lokasi"><br>
+                 Jam Buka:<br>
+                 <input type="text" id = "new_jambuka" name="jambuka">
+                 Ket:<br>
+                 <input type="text" id = "new_ket" name="ket"><br>
+                 
+            </form>           
+            <button id = "btntmb">(+) Tambah Wisata</button>
+        </div>
+    </div> 
+    
+    <div data-role="page" id="page-four">
+        <div data-role="header">
+            <h1>Edit Wisata</h1>
+        </div>
+        <div role="main" class="ui-content" id = "main2">
+             <form id="form-edit">
+                 Nama:<br>
+               <input type="text" id = "edit_nama" name="nama"><br>
+                 Harga:<br>
+                 <input type="text" id = "edit_harga" name="harga">
+                 Lokasi:<br>
+                 <input type="text" id = "edit_lokasi" name="lokasi"><br>
+                 Jam Buka:<br>
+                 <input type="text" id = "edit_jambuka" name="jambuka">
+                 Ketrangan:<br>
+                 <input type="text" id = "edit_ket" name="ket"><br>
+                 
+<!--
+                 URL Image:<br>
+                 <input type = "text" id = "new_img" name = "img">
+-->
+            </form>
+            <div id="div_btnedit">
+                
+            </div>
+        </div>
+    </div> 
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/app.js" type="text/javascript"></script>
+    <script>Application.initApplication();</script>
+</body>
+</html>
